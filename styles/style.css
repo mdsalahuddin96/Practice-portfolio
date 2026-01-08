@@ -59,7 +59,21 @@
     max-width: 35%;
     margin-top: 131px;
     margin-left: 206px;
-    background-color:rgba(241,91,34,0.2) ;
+    position: relative;
+    
+}
+.img-container .circle{
+    width: 527.93px;
+    width: 527.93px;
+    background-color: rgba(241, 91, 34, 0.2);
+    border-radius: 50%;
+    padding:187px 28.78px 0px 22.86px;
+    position: absolute;
+    top:186.37px;
+    left: 22.86px;
+    right: 28.78px;
+    bottom: 0;
+    z-index: -1;
 }
 .failure .img-container img{
     vertical-align: middle;
@@ -114,6 +128,7 @@
     display: flex;
     justify-content: space-between;
 }
+
 .plans .plan-card h2{
     margin: 16px 0px;
     font-size: 30px;
